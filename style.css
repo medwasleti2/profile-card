@@ -8,24 +8,13 @@
 }
 
 body {
-  background: hsl(185, 75%, 39%);
+  /* background: hsl(185, 75%, 39%); */
   position: relative;
-  width: 1440px;
   overflow: hidden;
-}
-
-.top-img {
-  z-index: auto;
-  position: absolute;
-  top: -50%;
-  right: 54%;
-}
-
-.bottom-img {
-  z-index: auto;
-  position: absolute;
-  top: 40%;
-  right: -24%;
+  background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-color: #19a2ae;
+  background-position: right 52vw bottom 35vh, left 48vw top 52vh;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .top-backround img {
